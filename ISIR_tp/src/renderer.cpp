@@ -4,6 +4,7 @@
 #include "utils/random.hpp"
 #include "integrators/direct_lighting_integrator.hpp"
 #include "integrators/whitted_integrator.hpp"
+#include <omp.h>
 
 namespace RT_ISICG
 {

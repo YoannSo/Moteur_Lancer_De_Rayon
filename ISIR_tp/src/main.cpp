@@ -127,7 +127,7 @@ namespace RT_ISICG
 		PerspectiveCamera camera( pos_camera, pos_lookAt, p_up, FOV, float( imgWidth ) / imgHeight );
 
 		int choixAnti = 1;
-		int nbSample  =1;
+		int nbSample  =32;
 
 		renderer.setNbPixelSamples( nbSample );
 		renderer.setBackgroundColor( GREY );
